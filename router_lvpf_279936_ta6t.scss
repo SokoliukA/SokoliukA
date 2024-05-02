@@ -1,0 +1,5 @@
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const isPalindrome = str => str === str.split("").reverse().join("");
+const removeDuplicates = array => Array.from(new Set(array));
